@@ -1,9 +1,10 @@
-# Linear probing GPT-2 small for next-token-is-noun
+# Mech Interp Minis
+---
 
-Can a linear probe on GPT-2 small's residual stream predict whether the *next* token will be a noun? Sweep across layers to see where this information is most readable.
+List of mini mech interp projects, mainly using `TransformerLens` and `torch`.
 
-## Layout
-- `notebooks/` — exploratory work
-- `src/` — reusable code (data prep, probe training, eval)
-- `data/` — cached activations and labelled datasets
+---
 
+### Project Index
+
+`next-word-noun` - small linear probe (logistic reg.) on `gpt2=small` hooked transformer. 
